@@ -13,27 +13,10 @@ Librairies utilisées :
 
 Fonctionnalités : 
   -	La carte passe en Sleep Mode une fois qu’elle a été programmée.
-  -	Réveil de la carte lorsque la pression dépasse 2 bars ou que le câble USB est branché.
   
-  -	Câble USB branché :
-Led rouge allumée -> Fermeture du fichier sur la carte SD au cas où -> Ouverture de l’IHM -> Ouvrir le Tera Term
-    	Débrancher puis rebrancher l’USB
-    	Accès aux fichiers
-      •	Lecture simple des « .txt »
-      •	Décodage des « .dat »
-    	Faire « 0 » pour quitter l’IHM.
-    	Débrancher l’USB
-    	Led rouge éteinte
-  o	Pression supérieure à 2 bars :
-    	Enregistrement du début de l’enregistrement
-    	Création d’un fichier « .dat »
-    	Sauvegarde de la batterie
-    	Réinitialisation des capteurs et de la carte SD
-    	Ecriture en format compressé des données
-  o	Lorsqu’aucune de ces conditions ne sont pas remplis :
-    	Enregistrement de la fin de l’enregistrement
-    	Fermeture du fichier sur la carte SD au cas où
-    	Sauvegarde de la batterie
-    	Mise en place de l’alarme dans 1 minute
-    	Endormissement de la carte
+  -	Réveil de la carte lorsque la pression dépasse 2 bars ou que le câble USB est branché.
+  -	Câble USB branché : Accès aux fichiers stockés sur la carte SD via un terminal.
+  -	Pression supérieure à 2 bars : Création d'un fichier dans lequel sont écris les données.
+  
+  - Lorsqu’aucune de ces conditions ne sont pas remplis : Fermeture des fichiers et endormissement de la carte pour 1 minute.
   -	Sauvegarde de la batterie toutes les 30 minutes.
