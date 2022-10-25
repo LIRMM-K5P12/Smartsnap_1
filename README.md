@@ -16,10 +16,7 @@ Fonctionnalités :
   -	Réveil de la carte lorsque la pression dépasse 2 bars ou que le câble USB est branché.
   
   -	Câble USB branché :
--	              Led rouge allumée
-    	Fermeture du fichier sur la carte SD au cas où
-    	Ouverture de l’IHM
-    	Ouvrir le Tera Term
+Led rouge allumée -> Fermeture du fichier sur la carte SD au cas où -> Ouverture de l’IHM -> Ouvrir le Tera Term
     	Débrancher puis rebrancher l’USB
     	Accès aux fichiers
       •	Lecture simple des « .txt »
