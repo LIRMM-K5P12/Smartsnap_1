@@ -14,8 +14,9 @@ Librairies utilisées :
 Fonctionnalités : 
   -	La carte passe en Sleep Mode une fois qu’elle a été programmée.
   -	Réveil de la carte lorsque la pression dépasse 2 bars ou que le câble USB est branché.
-  o	Câble USB branché :
-    	Led rouge allumée
+  
+  -	Câble USB branché :
+-	              Led rouge allumée
     	Fermeture du fichier sur la carte SD au cas où
     	Ouverture de l’IHM
     	Ouvrir le Tera Term
